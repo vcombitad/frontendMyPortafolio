@@ -1,0 +1,24 @@
+.listatwo {
+    list-style: none;
+    text-decoration: none;
+    
+}
+nav {
+    border-bottom: 2px solid white;
+}
+ul {
+    display: flex;
+   flex-direction: row;
+   gap: 40px;
+}
+a {
+    text-decoration: none;
+    color: rgba(3, 240, 255, 1);
+    font-size: 30px;
+    
+}
+
+#sidebar a.active {
+    color: rgb(91, 139, 143);
+    text-decoration: underline;
+  }
