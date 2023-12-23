@@ -1,10 +1,12 @@
+import Layout from "../../components/Layout"
+
 function Skills() {
 
     return (
       <>
-        <div>
+        <Layout>
           Skills
-        </div>
+        </Layout>
         
       </>
     )

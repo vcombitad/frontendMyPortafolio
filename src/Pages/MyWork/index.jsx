@@ -1,10 +1,12 @@
+import Layout from "../../components/Layout"
+
 function MyWork() {
 
     return (
       <>
-        <div>
+        <Layout>
           My Work
-        </div>
+        </Layout>
         
       </>
     )

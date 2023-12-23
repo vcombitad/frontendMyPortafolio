@@ -1,0 +1,17 @@
+.aboutme-text {
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.aboutme-image {
+    background-image: url('../../assets/tecnoAmbiente2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    place-self: end;
+    margin-top: -50px;
+}

@@ -1,10 +1,12 @@
+import Layout from "../../components/Layout"
+
 function Contact() {
 
     return (
       <>
-        <div>
+        <Layout>
           Contact
-        </div>
+        </Layout>
         
       </>
     )

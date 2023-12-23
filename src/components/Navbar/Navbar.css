@@ -5,6 +5,8 @@
 }
 nav {
     border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
 }
 ul {
     display: flex;

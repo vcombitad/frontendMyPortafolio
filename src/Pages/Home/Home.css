@@ -1,0 +1,39 @@
+.home-image {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/Esteban-removebg-preview.png');
+}
+.home-text {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    margin-top: 40px;
+    justify-content: center;
+}
+.home-text p:nth-child(1) {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.home-text p:nth-child(2) {
+    color: rgba(3, 240, 255, 1);
+    font-size: 60px;
+    text-align: center;
+    
+}
+.home-text p:nth-child(3) {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://www.mundodeportivo.com/alfabeta/hero/2023/09/itachi-naruto.1695164734.0925.jpg?width=768&aspect_ratio=16:9&format=nowebp');
+}
