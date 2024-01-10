@@ -72,7 +72,7 @@ a {
     list-style: none;
     background: white;
 }
-  @media screen and (max-width:1000px) {
+  @media screen and (max-width:996px) {
     ul {
         display: none;
     }
@@ -82,7 +82,7 @@ a {
     }
     
   }
-  @media screen and (min-width:590px) {
+  @media screen and (max-width:995px) {
     .menu-desplegable:hover > ul{
         display: flex;
     }
