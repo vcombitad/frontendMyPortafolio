@@ -1,5 +1,5 @@
 import Layout from "../../components/Layout"
-import './aboutme.css'
+import './Aboutme.css'
 
 function AboutMe() {
 

@@ -1,0 +1,62 @@
+.form-contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+
+.inputs-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+.inputs-info input {
+    background: none;
+    border: 1px solid rgba(3, 240, 255, 1);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
+.input-textarea--message{
+    width: 90%;
+    height: 200px;
+    background: none;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid rgba(3, 240, 255, 1);
+}
+.button-send {
+    width: 130px;
+    height: 50px;
+    background: rgba(3, 240, 255, 1);
+    border-radius: 5px;
+    color: white;
+}
+.button-send:hover {
+    transform: scale(1.2);
+}
+
+.form-title {
+    color: rgba(3, 240, 255, 1);
+    font-size: 30px;
+}
+.form-text {
+    color: white;
+    font-size: 23px;
+}

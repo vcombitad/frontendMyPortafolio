@@ -4,6 +4,11 @@
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    
+}
+.aboutme-text p{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 }
 .aboutme-image {
     background-image: url('../../assets/tecnoAmbiente2.png');
@@ -14,4 +19,12 @@
     height: 150px;
     place-self: end;
     margin-top: -50px;
+}
+
+@media screen and (max-width:550px) {
+    .aboutme-text {
+        font-size: 20px;
+        
+        
+    }
 }

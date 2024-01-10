@@ -1,0 +1,32 @@
+.card-contain {
+   
+    margin-bottom: 100px;
+}
+figure {
+    overflow: hidden;
+}
+.imagen {
+    max-width: 598px;
+    max-height: 598px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transition: 1s;
+}
+.imagen:hover {
+    transform: scale(1.2);
+}
+.card-contain--text {
+    
+    background: rgba(12, 72, 90, 0.5);
+    opacity: 0.5;
+}
+.card-contain--text h5{
+    font-size: 33px;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: white;
+}
+.card-contain--text p{
+    font-size: 20px;
+}
